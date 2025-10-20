@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Mochi 🍡</title>
+
+  <style>
+    /* 🌸 Gaya Umum */
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* 🌸 Header */
+    header {
+      background: linear-gradient(90deg, #ffb6c1, #ffa6c9);
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(255,255,255,0.3);
+    }
+
+    /* 🍡 Navigasi */
+    nav {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 2px solid #ffc1cc;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    nav a:hover {
+      background-color: #ffb6c1;
+      color: white;
+    }
+
+    /* 🍰 Konten Utama */
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    main h2 {
+      color: #ff69b4;
+      border-left: 5px solid #ffa6c9;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* 🌷 Daftar Jenis Mochi */
+    .mochi-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .mochi-item {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      background: #fff9fa;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .mochi-item:hover {
+      transform: scale(1.02);
+    }
+
+    .mochi-item img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .mochi-info {
+      flex: 1;
+    }
+
+    .mochi-info h3 {
+      margin-top: 0;
+      color: #ff69b4;
+    }
+
+    /* 🌈 Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-top: 40px;
+    }
+
+    /* 💖 Responsif */
+    @media (max-width: 768px) {
+      .mochi-item {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .mochi-item img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Selamat Datang di Dunia Mochi 🍡</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="sejarah.html">Sejarah</a>
+    <a href="jenis.html">Jenis</a>
+    <a href="bahan.html">Bahan</a>
+    <a href="cara-membuat.html">Cara Membuat</a>
+    <a href="varian.html">Varian</a>
+    <a href="fakta.html">Fun-Fact</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="toko.html">Toko</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main>
+    <h2>Jenis-jenis Mochi</h2>
+
+    <ul class="mochi-list">
+
+      <li class="mochi-item">
+        <img src="daifuku.jpg" alt="Daifuku Mochi">
+        <div class="mochi-info">
+          <h3>Daifuku</h3>
+          <p>Mochi paling umum, biasanya berisi pasta kacang merah (anko), buah stroberi (Ichigo Daifuku), atau bahkan es krim.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="botamochi.jpg" alt="Botamochi / Ohagi">
+        <div class="mochi-info">
+          <h3>Botamochi / Ohagi</h3>
+          <p>Bola mochi dibungkus dengan pasta kacang merah di bagian luar, disajikan saat musim semi dan gugur.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="kinako.jpg" alt="Kinako Mochi">
+        <div class="mochi-info">
+          <h3>Kinako Mochi</h3>
+          <p>Mochi digulingkan dalam bubuk kedelai panggang (kinako) yang memberikan rasa gurih dan manis ringan.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="kuso.jpg" alt="Kusa Mochi">
+        <div class="mochi-info">
+          <h3>Kusa Mochi</h3>
+          <p>Mochi hijau yang dibuat dengan daun mugwort (yomogi), memberi rasa herba segar dan aroma khas.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="yatsu.jpg" alt="Yatsuhashi Mochi">
+        <div class="mochi-info">
+          <h3>Yatsuhashi</h3>
+          <p>Mochi khas Kyoto berbentuk segitiga, sering diisi pasta kacang atau kinako, tersedia juga rasa matcha dan cokelat.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="ichigo.jpg" alt="Ichigo Daifuku">
+        <div class="mochi-info">
+          <h3>Ichigo Daifuku</h3>
+          <p>Varian daifuku berisi stroberi utuh di dalamnya, populer karena kombinasi manis dan segar.</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="hishi.jpg" alt="Hishi Mochi">
+        <div class="mochi-info">
+          <h3>Hishi Mochi</h3>
+          <p>Mochi berbentuk berlian dengan tiga lapis warna: merah muda, putih, dan hijau. Disajikan saat Festival Boneka (Hinamatsuri).</p>
+        </div>
+      </li>
+
+      <li class="mochi-item">
+        <img src="dango.jpg" alt="Dango">
+        <div class="mochi-info">
+          <h3>Dango</h3>
+          <p>Pangsit dari tepung beras yang ditusuk sate (biasanya tiga hingga lima buah). Tidak sepenuhnya mochi, tapi sangat populer di Jepang.</p>
+        </div>
+      </li>
+
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website Mochi | Dibuat oleh Rashaqa Kansha</p>
+  </footer>
+</body>
+</html>

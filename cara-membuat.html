@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Cara Membuat Mochi 🍡</title>
+
+  <style>
+    /* 🌸 Gaya Umum */
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* 🌸 Header */
+    header {
+      background: linear-gradient(90deg, #ffb6c1, #ffa6c9);
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(255,255,255,0.3);
+    }
+
+    /* 🍡 Navigasi */
+    nav {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 2px solid #ffc1cc;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    nav a:hover {
+      background-color: #ffb6c1;
+      color: white;
+    }
+
+    /* 🍰 Konten Utama */
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    main h2 {
+      color: #ff69b4;
+      border-left: 5px solid #ffa6c9;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* 🍥 Daftar Langkah */
+    ol {
+      counter-reset: langkah;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ol li {
+      background-color: #fff7fa;
+      margin: 15px 0;
+      padding: 16px 20px;
+      border-radius: 14px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    ol li::before {
+      counter-increment: langkah;
+      content: counter(langkah);
+      background-color: #ffa6c9;
+      color: white;
+      font-weight: 700;
+      font-size: 1.1em;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: absolute;
+      left: -50px;
+      top: 50%;
+      transform: translateY(-50%);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    ol li:hover {
+      background-color: #ffe0ec;
+      transform: scale(1.02);
+    }
+
+    /* 🌈 Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-top: 40px;
+    }
+
+    /* 💖 Responsif */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 5px;
+        font-size: 0.9em;
+      }
+
+      main {
+        padding: 20px;
+        margin: 20px;
+      }
+
+      ol li::before {
+        left: -40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Selamat Datang di Dunia Mochi 🍡</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="sejarah.html">Sejarah</a>
+    <a href="jenis.html">Jenis</a>
+    <a href="bahan.html">Bahan</a>
+    <a href="cara-membuat.html">Cara Membuat</a>
+    <a href="varian.html">Varian</a>
+    <a href="fakta.html">Fun-Fact</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="toko.html">Toko</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main>
+    <h2>Cara Membuat Mochi</h2>
+    <ol>
+      <li>Pertama, buat isiannya terlebih dahulu. Rebus air dan gula hingga gula larut dan agak kental.</li>
+      <li>Masukkan jahe bubuk dan kacang yang sudah ditumbuk. Aduk rata, lalu matikan kompor dan sisihkan.</li>
+      <li>Untuk kulit mochi, campurkan tepung ketan, tepung terigu, santan, gula, dan garam dalam wadah tahan panas. Aduk hingga rata tanpa gumpalan.</li>
+      <li>Panaskan kukusan hingga mendidih. Masukkan adonan, lalu kukus selama 30 menit. Angkat.</li>
+      <li>Aduk adonan dengan sendok nasi hingga lembut.</li>
+      <li>Taburkan sedikit tepung sagu pada adonan dan tangan agar tidak lengket.</li>
+      <li>Ambil sedikit adonan, isi dengan isian kacang, kemudian bentuk bulat. Ulangi hingga adonan habis.</li>
+      <li>Kamu bisa mengganti isiannya dengan cokelat, keju, atau kacang hijau sesuai selera.</li>
+      <li>Mochi siap disajikan! 🍡</li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website Mochi | Dibuat oleh Rashaqa Kansha</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Varian Mochi 🍡</title>
+
+  <style>
+    /* 🌸 Gaya Umum */
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* 🌸 Header */
+    header {
+      background: linear-gradient(90deg, #ffb6c1, #ffa6c9);
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(255,255,255,0.3);
+    }
+
+    /* 🍡 Navigasi */
+    nav {
+      background-color: #ffe4e1;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 2px solid #ffc1cc;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    nav a:hover {
+      background-color: #ffb6c1;
+      color: white;
+    }
+
+    /* 🍰 Konten Utama */
+    main {
+      padding: 30px;
+      max-width: 950px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    main h2 {
+      color: #ff69b4;
+      border-left: 5px solid #ffa6c9;
+      padding-left: 10px;
+    }
+
+    /* 🍡 Kartu Varian */
+    .varian-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .varian-card {
+      background-color: #fff7fa;
+      border-radius: 14px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .varian-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .varian-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .varian-card h3 {
+      margin: 12px 0 5px;
+      color: #ff69b4;
+      text-align: center;
+    }
+
+    .varian-card p {
+      text-align: center;
+      font-size: 0.95em;
+      padding: 0 15px 15px;
+      color: #555;
+    }
+
+    /* 🌈 Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-top: 40px;
+    }
+
+    /* 💖 Responsif */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 5px;
+        font-size: 0.9em;
+      }
+
+      main {
+        padding: 20px;
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Selamat Datang di Dunia Mochi 🍡</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="sejarah.html">Sejarah</a>
+    <a href="jenis.html">Jenis</a>
+    <a href="bahan.html">Bahan</a>
+    <a href="cara-membuat.html">Cara Membuat</a>
+    <a href="varian.html">Varian</a>
+    <a href="fakta.html">Fun-Fact</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="toko.html">Toko</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main>
+    <h2>Beragam Varian Mochi yang Populer 🌸</h2>
+    <p>Nikmati berbagai rasa mochi yang lembut, manis, dan menggugah selera. Setiap varian punya keunikan rasa yang berbeda, dari klasik hingga modern!</p>
+
+    <div class="varian-container">
+      <div class="varian-card">
+        <img src="str.jpg" alt="Mochi Stroberi">
+        <h3>Mochi Stroberi 🍓</h3>
+        <p>Manis dan segar! Rasa stroberi yang lembut berpadu dengan kulit mochi kenyal yang memanjakan lidah.</p>
+      </div>
+
+      <div class="varian-card">
+        <img src="maca.jpg" alt="Mochi Matcha">
+        <h3>Mochi Matcha 🍃</h3>
+        <p>Wangi matcha dan rasa manis pahit yang lembut menjadikan mochi ini pilihan favorit pecinta teh hijau.</p>
+      </div>
+
+      <div class="varian-card">
+        <img src="cklt.jpg" alt="Mochi Coklat">
+        <h3>Mochi Coklat 🍫</h3>
+        <p>Kenikmatan coklat lumer di dalam mochi lembut. Paduan klasik antara manis, kenyal, dan creamy.</p>
+      </div>
+
+      <div class="varian-card">
+        <img src="ori.jpg" alt="Mochi Original">
+        <h3>Mochi Original 🤍</h3>
+        <p>Rasa klasik mochi dengan sentuhan manis ringan dan aroma khas tepung ketan. Sederhana tapi menenangkan.</p>
+      </div>
+
+      <div class="varian-card">
+        <img src="mangga.jpg" alt="Mochi Mangga">
+        <h3>Mochi Mangga 🥭</h3>
+        <p>Mochi dengan isian rasa mangga tropis yang harum dan segar, cocok untuk pecinta buah.</p>
+      </div>
+
+      <div class="varian-card">
+        <img src="oreo.jpg" alt="Mochi Oreo">
+        <h3>Mochi Oreo 🍪</h3>
+        <p>Gabungan sempurna antara kulit mochi lembut dan isian krim oreo renyah — modern, manis, dan memikat!</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Website Mochi | Dibuat oleh Rashaqa Kansha</p>
+  </footer>
+</body>
+</html>
